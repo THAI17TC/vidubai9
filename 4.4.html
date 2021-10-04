@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function showMessage(message)
+        {
+        // Nếu message không được truyền vào hoặc giá trị nó là rỗng
+        // thì sẽ được thay thế bằng giá trị 'Không có tin nhắn'
+        message = message || 'Không có tin nhắn <br/>';
+        document.write(message);
+        }
+        // Cách 1: không truyền tham số
+        showMessage();
+        // Cách 2: Truyền tham số
+        showMessage('Chào mừng bạn đến với freetuts.net');
+
+
+
+    </script>
+    
+</body>
+</html>
